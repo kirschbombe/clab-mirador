@@ -17,29 +17,20 @@
        theme: {
          transitions: window.location.port === '4488' ?  { create: () => 'none' } : {},
        },
-       windows: [{
-         manifestId: 'https://iiif.harvardartmuseums.org/manifests/object/299843',
-         canvasId: 'https://iiif.harvardartmuseums.org/manifests/object/299843/canvas/canvas-47174892',
-         thumbnailNavigationPosition: 'far-bottom',
-       },
-       {
-         manifestId: 'https://iiif.bodleian.ox.ac.uk/iiif/manifest/e32a277e-91e2-4a6d-8ba6-cc4bad230410.json',
-       }],
+       workspace: { isWorkspaceAddVisible: true },
        catalog: [
-         { manifestId: 'https://iiif.bodleian.ox.ac.uk/iiif/manifest/e32a277e-91e2-4a6d-8ba6-cc4bad230410.json' },
-         { manifestId: 'https://iiif.harvardartmuseums.org/manifests/object/299843' },
-         { manifestId: "https://media.nga.gov/public/manifests/nga_highlights.json", provider: "National Gallery of Art"},
-         { manifestId: "https://data.ucd.ie/api/img/manifests/ucdlib:33064", provider: "Irish Architectural Archive"},
-         { manifestId: "https://wellcomelibrary.org/iiif/b18035723/manifest", provider: "Wellcome Library"},
-         { manifestId: "https://demos.biblissima.fr/iiif/metadata/florus-dispersus/manifest.json", provider: "Biblissima"},
-         { manifestId: "https://www.e-codices.unifr.ch/metadata/iiif/gau-Fragment/manifest.json", provider: "e-codices - Virtual Manuscript Library of Switzerland"},
-         { manifestId: "https://wellcomelibrary.org/iiif/collection/b18031511", provider: "Wellcome Library"},
-         { manifestId: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10022508f/manifest.json", provider: "Bibliothèque nationale de France"},
-         { manifestId: "https://manifests.britishart.yale.edu/Osbornfa1", provider: "Beinecke Rare Book and Manuscript Library, Yale University"},
-         { manifestId: "https://iiif.biblissima.fr/chateauroux/B360446201_MS0005/manifest.json", provider: "Biblissima"},
-         { manifestId: "https://iiif.durham.ac.uk/manifests/trifle/32150/t1/m4/q7/t1m4q77fr328/manifest", provider: "Durham University Library"},
-         //{ manifestId: "https://iiif.vam.ac.uk/collections/O1023003/manifest.json", provider: "Ocean liners"},
-         { manifestId: "https://zavicajna.digitalna.rs/iiif/iiif/api/presentation/2/4aa44ad1-0b74-4590-ab09-534a38cb7c53%252F00000001%252Fostalo01%252F00000012/manifest", provider: "Библиотека 'Милутин Бојић'"},
+         { manifestId: 'https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1dr49h5/manifest?_ga=2.7592304.311075434.1655140054-1414255438.1650661792', provider: "Wahon Literacies Collection, UCLA Library Digital Collections"},
+         { manifestId: 'https://digital.blb-karlsruhe.de/i3f/v20/4590945/manifest', provider: "St. Gall Collection, UCLA Library Digital Collections (via Badische Landesbibliothek Karlsruhe)"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz002cfgv5/manifest?_ga=2.79664470.311075434.1655140054-1414255438.1650661792", provider: "Henry J. Bruman Map Collection, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz002h75hm/manifest?_ga=2.49311972.311075434.1655140054-1414255438.1650661792", provider: "Henry J. Bruman Map Collection, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001hfwjk/manifest?_ga=2.207967696.311075434.1655140054-1414255438.1650661792", provider: "Tulancingo (Hildalgo, Mexico) Manuscript Collection, 1567-1882, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz002gch23/manifest?_ga=2.79074518.311075434.1655140054-1414255438.1650661792", provider: "East Asian Archaeology Corona Satellite Images Collection: 1960s-1970s, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz001bkxsd/manifest?_ga=2.50256228.311075434.1655140054-1414255438.1650661792", provider: "Urquhart (Brian) Collection of Material about Ralph Bunche, ca. 1932-1972, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1jt180t/manifest?_ga=2.44988646.311075434.1655140054-1414255438.1650661792", provider: "Quinn, Alfred Thomas Collection, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz0017966n/manifest?_ga=2.243686471.311075434.1655140054-1414255438.1650661792", provider: "Richard and Dion Neutra Papers, 1925-1970, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz002hjqt1/manifest?_ga=2.246398022.311075434.1655140054-1414255438.1650661792", provider: "Sachtleben (William Lewis) Papers. Collection 1841, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz002j5b8x/manifest?_ga=2.246913094.311075434.1655140054-1414255438.1650661792", provider: "Sachtleben (William Lewis) Papers. Collection 1841, UCLA Library Digital Collections"},
+         { manifestId: "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fzz002k6gpx/manifest?_ga=2.242259008.311075434.1655140054-1414255438.1650661792", provider: "Takamura (Kango) Paintings, 1942-1945, UCLA Library Digital Collections"},
        ]
      });
     </script>
